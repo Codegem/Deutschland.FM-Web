@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    padding-top: 2px;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+.logo{
+    margin-left: 20%;
+}
+.main-radio{
+    justify-content: center;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: darkgrey;
+    display: grid;
+    /*grid-template-columns: 96px 96px 96px 96px 96px 96px 96px 96px 96px;*/
+   /* grid-template-rows: 60px 60px 60px 60px 60px 60px 60px 60px 60px;*/
+    grid-template-areas: 'pirmas ad ad ad ad ad ad ad antras'
+                         'trecias ad ad ad ad ad ad ad ketvirtas'
+                         '2pirmas 2antras 2trecias 2ketv 2penkt 2sest 2sept 2astun 2devin'
+                         '3pirm 3antr 3trec player player player 3ketv 3penkt 3se5st'
+                         '4pirm 4antr 4trec player player player 4ketv 4penkt 4sest'
+                         '5pirm 5antr 5trec player player player 5ketv 5penkt 5sest'
+                         '66pirmas 6antras 6trecias 6ketv 6penkt 6sest 6sept 6astun 6devin'
+                         'L71 ad-apacia ad-apacia ad-apacia ad-apacia ad-apacia ad-apacia ad-apacia L72'
+                         '7pirmas 7antras 7trecias 7ketv 7penkt 7sest 7sept 7astun 7devin';
+    gap: 5px;
+}
+/* first and second  line */
+.pirmas{
+    grid-area: pirmas;
+    margin-bottom: 0;
+}
+.antras{
+    grid-area: antras;
+}
+.ads-centre-virsui{
+    grid-area: ad;
+    margin: 0;
+}
+.trecias{
+    grid-area: trecias;
+}
+.ketvirtas{
+    grid-area: ketvirtas;
+}
+/* first and second line end */
+/* antra eile is 9 */
+.L2pirmas{
+    grid-area: 2pirmas;
+}
+.L2antras{
+    grid-area: 2antras;
+}
+.L2trecias{
+    grid-area: 2trecias;
+}
+.L2ketvirtas{
+    grid-area: 2ketvi;
+}
+.L2penkt{
+    grid-area: 2penkt;
+}
+.L2sest{
+    grid-area: 2sest;
+}
+.L2sept{
+    grid-area: 2sept;
+}
+.L2astun{
+    grid-area: 2astun;
+}
+.L2devin{
+    grid-area: 2devin;
+}
+/* end line 3 */
+.L3pirmas{
+    grid-area: 3pirm;
+}
+.L3antras{
+    grid-area: 3antr;
+}
+.L3trecias{
+    grid-area: 3trec;
+}
+.L3ketvirtas{
+    grid-area: 3ketv;
+}
+.L3penkt{
+    grid-area: 3penkt;
+}
+.L3sest{
+    grid-area: 3sest;
+}
+.playeris{
+    grid-area: player;
+}
+/* end line 4 su radija */
+.L4pirmas{
+    grid-area: 4pirm;
+}
+.L4antras{
+    grid-area: 4antr;
+}
+.L4trecias{
+    grid-area: 4trec;
+}
+.L4ketvirtas{
+    grid-area: 4ketv;
+}
+.L4penkt{
+    grid-area: 4penkt;
+}
+.L4sest{
+    grid-area: 4sest;
+}
+/* line 5 su radija */
+.L5pirmas{
+    grid-area: 5pirm;
+}
+.L5antras{
+    grid-area: 5antr;
+}
+.L5trecias{
+    grid-area: 5trec;
+}
+.L5ketvirtas{
+    grid-area: 5ketv;
+}
+.L5penkt{
+    grid-area: 5penkt;
+}
+.L5sest{
+    grid-area: 5sest;
+}
+/* sesta eile */
+.L6pirmas{
+    grid-area: 6pirmas;
+}
+.L6antras{
+    grid-area: 6antras;
+}
+.L6trecias{
+    grid-area: 6trecias;
+}
+.L6ketvirtas{
+    grid-area: 6ketvi;
+}
+.L6penkt{
+    grid-area: 6penkt;
+}
+.L6sest{
+    grid-area: 6sest;
+}
+.L6sept{
+    grid-area: 6sept;
+}
+.L6astun{
+    grid-area: 6astun;
+}
+.L6devin{
+    grid-area: 6devin;
+}
+/* septinta eile is 9 */
+.L7pirmas{
+    grid-area: L71;
+}
+.L7antras{
+    grid-area: L72;
+}
+.ads-centre-apacia{
+    grid-area: ad-apacia;
+}
+/* Astunta eile su ads */
+.L7pirmas{
+    grid-area: 7pirmas;
+}
+.L7antras{
+    grid-area: 7antras;
+}
+.L7trecias{
+    grid-area: 7trecias;
+}
+.L7ketvirtas{
+    grid-area: 7ketvi;
+}
+.L7penkt{
+    grid-area: 7penkt;
+}
+.L7sest{
+    grid-area: 7sest;
+}
+.L7sept{
+    grid-area: 7sept;
+}
+.L7astun{
+    grid-area: 7astun;
+}
+.L7devin{
+    grid-area: 7devin;
+}
+.radio{
+    margin: 0;
+    padding: 0;
+}
+.radio > img:hover{
+    opacity: 0.5;
+}
+
